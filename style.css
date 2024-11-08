@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #292828;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.container-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45rem;
+    height: 50rem;
+    background-color: black;
+    border-radius: 15px 0px 0px 15px ;
+
+}
+
+.container-form input {
+    font-size: 18px;
+    height: 2rem;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.container-form select {
+    font-size: 18px;
+    height: 2rem;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.container-form fieldset {
+    width: 35rem;
+    height: 16rem;
+    border-radius: 15px;
+    border: solid 1px white;
+    background-color: #292828;
+    padding: 10px;
+}
+
+.container-form li {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.container-form legend {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.container-img {
+    display: flex;
+    align-items: center;
+    width: 35rem;
+    height: 50rem;
+    background-color: black;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.ctn-cursos{
+    display: flex;
+    flex-direction: row;
+}
+
+.ctn-curso {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctn-turno {
+    display: flex;
+    flex-direction: column;
+}
+

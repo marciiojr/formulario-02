@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container-main">
+        <div class="container-form">
+
+            <form>
+                <fieldset>
+                    <legend> Dados pessoais</legend>
+                    <div>
+                        <label for="nome">Nome: </label>
+                        <input id="nome" type="text" placeholder="Digite seu nome">
+                    </div>
+                    <div>
+                        <label for="email">Email: </label>
+                        <input id="email" type="email" placeholder="Digite seu email">
+                    </div>
+                    <div>
+                        <label for="nome">Telefone: </label>
+                        <input id="telefone" type="text" placeholder="(00) 00000-0000">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend> Dados cadastrais</legend>
+                    <div>
+                        <label for="endereco">Endenço: </label>
+                        <input id="endereco" type="text" placeholder="Av/Rua">
+                    </div>
+                    <div>
+                        <label for="bairro">Bairro: </label>
+                        <input id="bairro" type="text" placeholder="Bairro">
+                    </div>
+                    <div>
+                        <label for="cidade">Cidade: </label>
+                        <input id="cidade" type="text" list="cidades">
+                        <datalist id="cidades">
+                            <option>Fortaleza</option>
+                            <option>Fortim</option>
+                            <option>Caucaia</option>
+                            <option>Eusebio</option>
+                            <option>Aquiraz</option>
+                            <option>Maracanaú</option>
+                            <option>Maranguape</option>
+                            <option>Beberibe</option>
+                        </datalist>
+                    </div>
+                    <div>
+                        <label for="estado">Estado: </label>
+                        <select id="estado">
+                            <option disabled selected>Escolha um estado</option>
+                            <option>Amazonas</option>
+                            <option>Acre</option>
+                            <option>Bahia</option>
+                            <option>Ceará</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend> Dados do curso</legend>
+                    <div class="ctn-cursos">
+                    <div class="ctn-curso">
+                        <label>Cursos</label>
+                        <ul>
+                            <li>
+                                <label>
+                                    <input type="checkbox">Fullstack
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox">Marketing
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox">UI/UX
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox">Data Analytics
+                                </label>
+                            </li>
+                        </ul>                        
+                    </div>
+
+                    <div class="ctn-turno">
+                        <label>Turno</label>
+                        <ul>
+                            <li>
+                                <label>
+                                    <input name="turno" type="radio">Manhã
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input name="turno" type="radio">Tarde
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input name="turno" type="radio">Noite
+                                </label>
+                            </li>
+                    </div>
+                </div>
+                </fieldset>
+            </form>
+
+        </div>
+        <div class="container-img">
+            <img src="https://yt3.googleusercontent.com/OXyY11AcLiXC2xU8xIdBYRNN8F4kOStQitL4UqLfDUpSroiLuAJqH7TdhstIIvkC09NiQcIx=s900-c-k-c0x00ffffff-no-rj" width="560px" height="600px" alt="">
+        </div>
+    </section>
+</body>
+</html>
